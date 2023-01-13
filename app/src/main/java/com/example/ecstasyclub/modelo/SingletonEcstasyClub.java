@@ -20,9 +20,9 @@ import java.util.ArrayList;
 
 public class SingletonEcstasyClub {
     private static SingletonEcstasyClub instance = null;
-    private static RequestQueue volleyQueue=null;
+    private static RequestQueue volleyQueue = null;
 
-    private static final String mUrlAPI="http://192.168.1.6:8080/ecstasyclub/backend/web/index.php?r=api/";
+    private static final String mUrlAPI="http://192.168.56.1/ecstasyclub/backend/web/index.php?r=api/";
 
     private EventosListener eventosListener;
     private ArrayList<Eventos> eventos;
